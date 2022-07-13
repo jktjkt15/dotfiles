@@ -60,10 +60,11 @@ cnoremap <C-k> <Up>
 cnoremap <C-j> <Down>
 
 "" Seamless tmux and vim navigation
-"let g:tmux_navigator_no_mappings = 1
+let g:tmux_navigator_no_mappings = 1
 
-"nnoremap <silent> {Left-Mapping} :TmuxNavigateLeft<cr>
-"nnoremap <silent> {Down-Mapping} :TmuxNavigateDown<cr>
-"nnoremap <silent> {Up-Mapping} :TmuxNavigateUp<cr>
-"nnoremap <silent> {Right-Mapping} :TmuxNavigateRight<cr>
-"nnoremap <silent> {Previous-Mapping} :TmuxNavigatePrevious<cr>
+nnoremap <silent> F8-h :TmuxNavigateLeft<cr>
+nnoremap <silent> F8-j :TmuxNavigateDown<cr>
+nnoremap <silent> F8-k :TmuxNavigateUp<cr>
+nnoremap <silent> F8-l :TmuxNavigateRight<cr>
+nnoremap <silent> F8-\ :TmuxNavigatePrevious<cr>
+
