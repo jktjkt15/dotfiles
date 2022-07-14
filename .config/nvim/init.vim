@@ -11,10 +11,13 @@ Plugin 'VundleVim/Vundle.vim' " Plugin Manager
 Plugin 'itchyny/lightline.vim' " Vim Powerline
 Plugin 'itchyny/vim-gitbranch' " Git branch name in powerline
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'dracula/vim', { 'name': 'dracula' }
 
 call vundle#end()
 
 filetype plugin indent on
+colorscheme dracula
+highlight LineNr ctermfg=blue
 
 "" General
 set path+=**
