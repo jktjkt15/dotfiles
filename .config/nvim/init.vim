@@ -16,7 +16,7 @@ Plugin 'dracula/vim', { 'name': 'dracula' }
 call vundle#end()
 
 filetype plugin indent on
-colorscheme dracula
+"colorscheme dracula
 highlight LineNr ctermfg=blue
 
 "" General
@@ -45,6 +45,7 @@ let g:lightline = {
 
 set laststatus=2
 set noshowmode
+set cursorline
 
 "" Editing .vimrc
 nnoremap <leader>ev :e $MYVIMRC<cr>
